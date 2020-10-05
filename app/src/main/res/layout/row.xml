@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/add_appointment"
+        android:id="@+id/image"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/appointments_list_view_margin"
+            android:textSize="@dimen/default_text_size_big"
+            android:id="@+id/textView1"
+            android:text="@string/hello_world"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRed"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/appointments_list_view_margin"
+            android:textSize="@dimen/default_text_size"
+            android:id="@+id/textView2"
+            android:text="@string/hello_world"
+            />
+        <!--so our layout is set-->
+
+    </LinearLayout>
+
+</LinearLayout>

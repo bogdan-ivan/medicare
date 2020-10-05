@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MediCare</string>
+    <string name="medicare">MediCare</string>
+    <string name="create_new_account">Create New Account</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="cnp">CNP</string>
+
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login_here">Already have an account? Login here!</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_an_account_register_here">Don\'t have an account? Register here!</string>
+    <string name="logout">LOGOUT</string>
+    <string name="create_account">Create account</string>
+
+    <string name="add_new_appointment">Add new appointment</string>
+    <string name="show_my_appointments">Show my appointments</string>
+    <string name="medicine_supplies">Medicine supplies</string>
+    <string name="manage_accounts">Manage Accounts</string>
+    <string name="manage_appointments">Manage Appointments</string>
+
+    <string name="appointments_menu">Appointments</string>
+    <string name="add_appointment">Add Appointment</string>
+    <string name="doctor">Doctor</string>
+    <string name="date">Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="confirm">Confirm</string>
+    <string name="title_activity_create_account">CreateAccountActivity</string>
+
+    <string name="hello_world">Hello Square World!</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="check_calendar">Check calendar</string>
+    <string name="hour">Hour</string>
+    <string name="show_my_recipies">Show my recipies</string>
+    <string name="news">News</string>
+    <string name="my_prescriptions">My prescriptions</string>
+    <string name="add_new_prescriptions">Add new prescriptions</string>
+    <string name="manage_prescriptions">Manage prescriptions</string>
+    <string name="reminders">Reminders</string>
+    <string name="add_prescription">Add prescription</string>
+    <string name="prescribed_drug">Prescribed drug</string>
+    <string name="select_hour">Select hour</string>
+    <string name="number_of_doses">Number of doses</string>
+    <string name="delete_prescription">Delete Prescription</string>
+
+</resources>

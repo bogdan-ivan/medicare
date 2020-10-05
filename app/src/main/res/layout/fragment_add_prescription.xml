@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddPrescriptionFragment">
+
+    <TextView
+        android:id="@+id/tv_add_prescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="28dp"
+        android:text="@string/add_prescription"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/title_text_size"
+        android:layout_marginTop="@dimen/default_margin_huge"/>
+
+    <EditText
+        android:id="@+id/et_patient"
+        android:layout_width="360dp"
+        android:layout_height="43dp"
+        android:autofillHints=""
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#F8F8F8"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_below="@id/tv_add_prescription"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin_big"/>
+
+    <EditText
+        android:id="@+id/et_drug"
+        android:layout_width="360dp"
+        android:layout_height="43dp"
+        android:autofillHints=""
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="@string/prescribed_drug"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="#F8F8F8"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_below="@id/et_patient"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"/>
+
+    <EditText
+        android:id="@+id/et_doses"
+        android:layout_width="360dp"
+        android:layout_height="43dp"
+        android:autofillHints=""
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="@string/number_of_doses"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="#F8F8F8"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_below="@id/et_drug"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"/>
+
+    <Button
+        android:id="@+id/btn_hour_picker_prescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/select_hour"
+        android:layout_below="@id/et_doses"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"/>
+
+    <TextView
+        android:id="@+id/tv_hour_prescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="28dp"
+        android:text="@string/hour"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/default_text_size_big"
+        android:layout_marginTop="@dimen/default_margin_big"
+        android:layout_below="@id/et_doses"/>
+
+    <Button
+        android:id="@+id/btn_make_prescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/default_margin_big"
+        android:text="@string/confirm"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/selector_button"/>
+
+</RelativeLayout>

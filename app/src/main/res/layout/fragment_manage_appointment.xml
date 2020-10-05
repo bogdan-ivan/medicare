@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ManageAppointmentFragment"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+    <view class="androidx.appcompat.app.AlertController$RecycleListView"
+        android:id="@+id/list_view_appointments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/pb_appointments"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal|center"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_delete_appointment"
+        android:text="Delete Appointment"
+        android:textSize="@dimen/default_text_size_big"
+        android:padding="@dimen/default_padding"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/default_margin_big"
+        android:background="@drawable/selector_button"/>
+
+
+</FrameLayout>
